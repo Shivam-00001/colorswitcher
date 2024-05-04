@@ -1,0 +1,50 @@
+h1 {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.button {
+    border: 1px solid black;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    border-radius: 50px;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+#blue:hover{
+    background-color: black;
+    transition: 2s;
+}
+#red:hover{
+    background-color: black;
+    transition: 2s;
+}
+#yellow:hover{
+    background-color: black;
+    transition: 2s;
+}
+#grey:hover{
+    background-color: black;
+    transition: 2s;
+}
